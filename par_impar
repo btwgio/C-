@@ -1,0 +1,12 @@
+#include <iostream>
+int main(){
+int a;
+std::cin >> a;
+if (a%2 == 0){
+  std::cout << "É par" << std::endl;
+}
+else {
+std::cout << "É impar" << std::endl;
+}
+return 0;
+}
